@@ -48,12 +48,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #57cbcc;
+  background: #f43b60;
 }
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #f43b60;
 }
 
 hr {
@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #f43b60;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #f43b60;
 }
 
 .color {
@@ -307,7 +307,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #f43b60;
 }
 
 .title p {
@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #68bb72;
   width: 100%;
   margin-bottom: 0;
 }
@@ -547,7 +547,7 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #242930;
+  background: #f68a8a;
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
@@ -555,7 +555,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #e74b6f;
 }
 
 .about .block:hover .icon-box {

@@ -1,0 +1,12 @@
+
+################### English Navigation ########################
+[[main]]
+name = "about"
+url = "#about"
+weight = 1
+
+[[main]]
+name = "contact"
+url = "#contact"
+weight = 2
+
