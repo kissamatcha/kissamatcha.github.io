@@ -21,7 +21,8 @@
 							<div class="media">
 								{{with .icon}}
 								<div class="align-self-start mr-3">
-									<i class="{{ . }}"></i>
+									<!-- <i class="{{ . }}"></i> -->
+									 <img src="{{ . | relURL }}" class="icon">
 								</div>
 								{{ end }}
 								<div class="media-body">
