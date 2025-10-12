@@ -6,22 +6,7 @@ feature:
   title : Why Kissa?
   # content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
   feature_item : 
-      # feature item loop
-    - title : Gut healthy using __agave inulin__, a prebiotic and natural sweetener
-      # icon : https://www.iconpacks.net/icons/2/free-leaf-icon-1550-thumb.png # themify icon pack : https://themify.me/themify-icons
-      # content : Created from ceremonial grade matcha sourced directly from Japan, Kissa ensures that you get matcha's signature taste in every sip.
-      
-      # feature item loop
-    - title : Only __4g of sugar__ and __20 calories__ per serving
-      # icon : images/icons/plant.png # themify icon pack : https://themify.me/themify-icons
-      # content : As a premade, liquid matcha concentrate, Kissa is easy to use and saves you time. Just shake, add to water or milk (optional), and enjoy!
-
-      # feature item loop
-    - title : Made with all __organic__ ingredients
-      # icon : images/icons/plant.png # themify icon pack : https://themify.me/themify-icons
-      # content : Matcha is packed with antioxidants, vitamins, and minerals that can offer a variety of health benefits. Kissa keeps these benefits and enhances them with agave inulin, a natural prebiotic and sweetener.
-      
-      # feature item loop
-    - title : Sourced directly from __multi-generational farms__ in Japan
-      # icon : images/icons/plant.png # themify icon pack : https://themify.me/themify-icons
-      # content : Kissa uses all natural and organic ingredients, with no artificial flavors, colors, or preservatives. It's vegan, gluten-free, and non-GMO. You can feel good about what you're putting in your body.
+    - title : Gut healthy using **<span style="color:#e14651">agave inulin</span>**, a prebiotic and natural sweetener
+    - title : Sourced directly from **<span style="color:#e14651">multi-generational farms</span>** in Japan
+    - title : Made with all **<span style="color:#e14651">organic</span>**, **<span style="color:#e14651">natural</span>** ingredients
+    - title : Only **<span style="color:#e14651">4g of sugar</span>** and **<span style="color:#e14651">20 calories</span>** per serving

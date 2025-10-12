@@ -952,6 +952,28 @@ navbar-dark .navbar-nav>.nav-link,
   font-weight: 600;
 }
 
+.about-2 .content-block .feature-text-box {
+  /* position: relative; */
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+  /* width: 75%; */
+  /* padding-bottom: 20px; */
+  /* border: 3px solid #e14651; */
+  font-size: 0.9rem;
+  border: 0px;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  /* box-shadow: 4px 4px 0 #b9848d; */
+  box-shadow: 4px 4px 0 rgba(98, 21, 23, 0.489);
+  /* margin-bottom: 110px; */
+}
+
+.about-2 .content-block .feature-text-box p {
+  color: black;
+  margin: 0;
+}
+
 /*=================================================================
  Call To Action 1
 ==================================================================*/
