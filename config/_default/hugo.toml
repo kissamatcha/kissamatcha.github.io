@@ -126,7 +126,7 @@ map_marker = "images/marker.png"
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
-link = "kissamatcha@gmail.com"
+link = "info@kissa.nyc"
 
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
