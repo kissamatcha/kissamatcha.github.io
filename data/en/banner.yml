@@ -3,10 +3,12 @@ banner:
   enable : true
   bg_image_webp : "images/backgrounds/kissa_banner.webp"
   bg_image : "images/backgrounds/kissa_banner.png"
+  kissa_girl_image_webp : "images/kissa_girl.webp"
+  kissa_girl_image : "images/kissa_girl.png"
   # icon : "images/logo.png" # themify icon pack : https://themify.me/themify-icons
-  title : "."
+  title : "KISSA"
   content : "."
   button:
     enable : true
     label : "Get a Taste"
-    link : "#feature"
+    link : "#about"

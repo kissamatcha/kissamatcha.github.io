@@ -1,11 +1,41 @@
 {{ $data := index site.Data site.Language.Lang }} {{ if
 $data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Slider-->"
 | safeHTML}}
-<section
+<!-- <section
   class="hero-area" {{ partial `bg-image.html` (dict `Src` .bg_image_webp) | safeHTMLAttr }}
+> -->
+<section
+  class="hero-area"
 >
   {{ partial "image" (dict "Src" .bg_image_webp "Alt"
   .Title "Class" "d-none") }}
+
+  <div class="marquee">
+    <div class="marquee-content">
+      <!-- Taste. Tea. Kiss. &nbsp; Taste. Tea. Kiss. &nbsp; Taste. Tea. Kiss. -->
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+      <span>Taste. Tea. Kiss. &nbsp;</span>
+    </div>
+  </div>
 
   <div class="block">
     {{ if .icon }}
@@ -14,12 +44,16 @@ $data.banner.banner.enable }} {{ with $data.banner.banner }} {{"<!-- Welcome Sli
     </div>
     {{ end }}
     <h1>{{ .title | markdownify }}</h1>
-    <p>{{ .content | markdownify }}</p>
+    <!-- <p>{{ .content | markdownify }}</p> -->
     {{ if .button.enable }} {{ with .button }}
     <a href="{{ .link }}" class="btn btn-transparent page-scroll"
       >{{ .label }}</a
     >
     {{ end }} {{ end }}
   </div>
+
+  <div class="kissa-girl-block" {{ partial `bg-image.html` (dict `Src` .kissa_girl_image_webp) | safeHTMLAttr }}>
+  </div>
+
 </section>
 {{"<!-- /Welcome Slider-->" | safeHTML}} {{end}} {{end}}

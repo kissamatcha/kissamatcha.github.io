@@ -450,8 +450,9 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .hero-area {
-  background-size: cover;
+  background-size: contain;
   height: 100vh;
+  /* width: 100%; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -469,8 +470,12 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .hero-area .block {
+  position: static;
   text-align: center;
+  top: 15%;
   z-index: 99;
+  width: 75vw;
+  /* background-color: blue; */
 }
 
 .hero-area .block .video-button {
@@ -489,16 +494,22 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .hero-area .block h1 {
-  font-size: 90px;
+  /* font-family: "Gill Sans"; */
+  font-family: "Impact";
   color: #fff;
   text-transform: capitalize;
-  font-weight: 700;
+  /* font-weight: 600; */
+  font-weight: 100;
   margin-bottom: 20px;
+  font-size: 24vw;
+  white-space: nowrap;   /* prevent wrapping */
+  margin: 0;
+  line-height: 1;
 }
 
 @media (max-width: 480px) {
   .hero-area .block h1 {
-    font-size: 60px;
+    font-size: 24vw;
   }
 }
 
@@ -558,6 +569,53 @@ navbar-dark .navbar-nav>.nav-link,
   z-index: -1;
 }
 
+.hero-area .kissa-girl-block {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: max(33%, 33vh); 
+  aspect-ratio: 1.1/1; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+  /* left: -1.5%;
+  height: 72%;
+  width: 100%; */
+}
+
+.marquee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #e14651;
+  white-space: nowrap;
+  padding: 10px 0;
+  z-index: 1000;
+  color: white;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content span {
+  display: inline-block;
+  padding-right: 2rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 /*=================================================================
   About us section
 ==================================================================*/
@@ -565,6 +623,57 @@ navbar-dark .navbar-nav>.nav-link,
   padding-top: 50px;
   background-color: #f1acb7;
   color: black;
+  position: relative;
+}
+
+.left-block {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: 33%; 
+  aspect-ratio: 1.1/1; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.right-block {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: 33%;
+  aspect-ratio: 1.1/1; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+}
+
+@media (max-width: 768px) {
+  .left-block {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 25%; 
+    aspect-ratio: 1.1/1; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+  }
+
+  .right-block {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 28%;
+    aspect-ratio: 1.1/1; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+  }
 }
 
 .about .block {
@@ -1287,6 +1396,7 @@ navbar-dark .navbar-nav>.nav-link,
 #blog-banner {
   padding-bottom: 100px;
   padding-top: 150px;
+  width: auto;
 }
 
 #blog-page {
