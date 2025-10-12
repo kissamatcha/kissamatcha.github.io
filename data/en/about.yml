@@ -8,5 +8,6 @@ about:
   right_image : images/right_image.png
   right_image_webp : images/right_image.webp
   title : About Us
-  about_item :
-  - content : We love matcha but hated the hassle of preparing it and how expensive it was at cafes. After searching everywhere for a healthy, convenient, and tasty solution, we decided to make our own. That's how Kissa was born! Whether you need a morning boost or an afternoon pick-me-up, Kissa's pre-made liquid matcha concentrate lets you enjoy matcha anytime, anywhere.
+  # about_item :
+  content1 : We’ve always loved matcha, but the __whisking, clumping, and $8 café runs__? Not so much.
+  content2: So we made Kissa, a __smooth, ready-to-pour__ matcha concentrate that’s __sweet, simple, and a little too easy to fall for__. Add milk or water, sip, and let it do its thing.

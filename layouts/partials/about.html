@@ -17,6 +17,14 @@
           <div class="border-meghna"></div>
         </div>
       </div>
+      <div class="text-box-container">
+        <div class="text-box-1">
+          <p>{{ .content1 | markdownify }}</p>
+        </div>
+        <div class="text-box-2">
+          <p>{{ .content2 | markdownify }}</p>
+        </div>
+      </div>
       {{"<!-- /section title -->" | safeHTML}} {{ range .about_item }} {{"<!-- About item -->"
       | safeHTML}}
       <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
@@ -32,7 +40,8 @@
         </div> -->
         <div class="content text-center">
           <!-- <h3>{{ .title }}</h3> -->
-          <p>{{ .content | markdownify }}</p>
+          <!-- <p>{{ .content1 | markdownify }}</p>
+          <p>{{ .content2 | markdownify }}</p> -->
         </div>
       </div>
       {{ end }}

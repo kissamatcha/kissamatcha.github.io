@@ -590,11 +590,11 @@ navbar-dark .navbar-nav>.nav-link,
   left: 0;
   width: 100%;
   overflow: hidden;
-  background: #e14651;
+  background: #b7d587;
   white-space: nowrap;
   padding: 10px 0;
   z-index: 1000;
-  color: white;
+  color: black;
 }
 
 .marquee-content {
@@ -624,6 +624,183 @@ navbar-dark .navbar-nav>.nav-link,
   background-color: #f1acb7;
   color: black;
   position: relative;
+  padding-bottom: 0;
+}
+
+/* .about .container {
+  background-color: green;
+} */
+
+.about .container .text-box-container {
+  position: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.about .container .text-box-container .text-box-1 {
+  position: relative;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+  width: 40%;
+  /* padding-bottom: 20px; */
+  /* border: 3px solid #e14651; */
+  border: 0px;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  /* box-shadow: 4px 4px 0 #b9848d; */
+  box-shadow: 4px 4px 0 rgba(191, 88, 90, 0.388);
+  margin-bottom: 20px;
+}
+
+.about .container .text-box-container .text-box-1 p{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.about .container .text-box-container .text-box-1::after {
+  content: "";
+  position: absolute;
+  left: -25px; /* move it outside the bubble on the left side */
+  top: 30%;    /* adjust vertically where the tail attaches */
+  width: 0;
+  height: 0;
+
+  /* Create left-pointing triangle */
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 25px solid #fff;  /* this controls the length */
+  border-left: 0;
+
+  /* Add matching border color as a shadow to simulate outline */
+  filter: drop-shadow(-2px 2px 0 rgba(191, 88, 90, 0.388));
+}
+
+.about .container .text-box-container .text-box-2 {
+  position: relative;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+  width: 40%;
+  /* padding-bottom: 20px; */
+  /* border: 3px solid #e14651; */
+  border: 0px;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  /* max-width: 33%; */
+  font-size: 1.1rem;
+  /* box-shadow: 4px 4px 0 #b9848d; */
+  box-shadow: 4px 4px 0 rgba(191, 88, 90, 0.388);
+  margin-bottom: 40px;
+}
+
+.about .container .text-box-container .text-box-2 p{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.about .container .text-box-container .text-box-2::after {
+  content: "";
+  position: absolute;
+  right: -25px; /* move it outside the bubble on the left side */
+  top: 30%;    /* adjust vertically where the tail attaches */
+  width: 0;
+  height: 0;
+
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 25px solid #fff;  /* this controls the length */
+  border-right: 0;
+
+  /* Add matching border color as a shadow to simulate outline */
+  filter: drop-shadow(2px 2px 0 rgba(191, 88, 90, 0.388));
+}
+
+@media (max-width: 768px) {
+  .about .container .text-box-container .text-box-1 {
+    position: relative;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    width: 75%;
+    /* padding-bottom: 20px; */
+    /* border: 3px solid #e14651; */
+    border: 0px;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    /* max-width: 33%; */
+    font-size: 1.1rem;
+    /* box-shadow: 4px 4px 0 #b9848d; */
+    box-shadow: 4px 4px 0 rgba(191, 88, 90, 0.388);
+    margin-bottom: 20px;
+  }
+  
+  .about .container .text-box-container .text-box-1 p{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about .container .text-box-container .text-box-1::after {
+    content: "";
+    position: absolute;
+    left: -25px; /* move it outside the bubble on the left side */
+    top: 30%;    /* adjust vertically where the tail attaches */
+    width: 0;
+    height: 0;
+  
+    /* Create left-pointing triangle */
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 25px solid #fff;  /* this controls the length */
+    border-left: 0;
+  
+    /* Add matching border color as a shadow to simulate outline */
+    filter: drop-shadow(-2px 2px 0 rgba(191, 88, 90, 0.388));
+  }
+  
+  .about .container .text-box-container .text-box-2 {
+    position: relative;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    width: 75%;
+    /* padding-bottom: 20px; */
+    /* border: 3px solid #e14651; */
+    border: 0px;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    /* max-width: 33%; */
+    font-size: 1.1rem;
+    /* box-shadow: 4px 4px 0 #b9848d; */
+    box-shadow: 4px 4px 0 rgba(191, 88, 90, 0.388);
+    margin-bottom: 110px;
+  }
+  
+  .about .container .text-box-container .text-box-2 p{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about .container .text-box-container .text-box-2::after {
+    content: "";
+    position: absolute;
+    right: -25px; /* move it outside the bubble on the left side */
+    top: 30%;    /* adjust vertically where the tail attaches */
+    width: 0;
+    height: 0;
+  
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 25px solid #fff;  /* this controls the length */
+    border-right: 0;
+  
+    /* Add matching border color as a shadow to simulate outline */
+    filter: drop-shadow(2px 2px 0 rgba(191, 88, 90, 0.388));
+  }
 }
 
 .left-block {
@@ -764,12 +941,13 @@ navbar-dark .navbar-nav>.nav-link,
   color: #57cbcc;
 }
 
-.about-2 .content-block .media h4 {
+.about-2 .content-block .media p {
   font-size: 28px;
-  font-weight: 300;
+  /* font-weight: 300; */
+  color: white;
 }
 
-.about-2 .content-block .media h4:hover {
+.about-2 .content-block .media p:hover {
   font-size: 28px;
   font-weight: 600;
 }
