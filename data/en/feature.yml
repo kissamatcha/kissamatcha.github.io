@@ -1,27 +1,27 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  image : images/about/about.jpg
+  image_webp : images/about/about.webp
+  title : Why Kissa?
+  # content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Gut healthy using agave inulin, a prebiotic and natural sweetener
+      # icon : https://www.iconpacks.net/icons/2/free-leaf-icon-1550-thumb.png # themify icon pack : https://themify.me/themify-icons
+      # content : Created from ceremonial grade matcha sourced directly from Japan, Kissa ensures that you get matcha's signature taste in every sip.
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Only 4g of sugar and 20 calories per serving
+      # icon : images/icons/plant.png # themify icon pack : https://themify.me/themify-icons
+      # content : As a premade, liquid matcha concentrate, Kissa is easy to use and saves you time. Just shake, add to water or milk (optional), and enjoy!
 
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Made with all organic ingredients
+      # icon : images/icons/plant.png # themify icon pack : https://themify.me/themify-icons
+      # content : Matcha is packed with antioxidants, vitamins, and minerals that can offer a variety of health benefits. Kissa keeps these benefits and enhances them with agave inulin, a natural prebiotic and sweetener.
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Sourced directly from multi-generational farms in Japan
+      # icon : images/icons/plant.png # themify icon pack : https://themify.me/themify-icons
+      # content : Kissa uses all natural and organic ingredients, with no artificial flavors, colors, or preservatives. It's vegan, gluten-free, and non-GMO. You can feel good about what you're putting in your body.

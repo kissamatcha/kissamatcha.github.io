@@ -95,13 +95,15 @@ link = "plugins/google-map/map.js"
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
+logo2 = "images/logo2.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "Welcome to Kissa"
+author = "Kissa"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
 post_share = true
+favicon="images/favicon.png"
 
 # preloader
 [params.preloader]

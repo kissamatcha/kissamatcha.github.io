@@ -1,12 +1,12 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.png"
+  bg_image_webp : "images/backgrounds/kissa_banner.webp"
+  bg_image : "images/backgrounds/kissa_banner.png"
   # icon : "images/logo.png" # themify icon pack : https://themify.me/themify-icons
-  title : "KISSA"
-  content : "Taste. Tea. Kiss."
+  title : "."
+  content : "."
   button:
     enable : true
-    label : "Explore Us"
-    link : "#about"
+    label : "Get a Taste"
+    link : "#feature"
