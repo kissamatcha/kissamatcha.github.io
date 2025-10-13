@@ -7,16 +7,16 @@ about:
   left_image_webp : images/left_image.webp
   right_image : images/right_image.png
   right_image_webp : images/right_image.webp
-  slide1_image : images/carousel/slide1.jpeg
-  slide1_image_webp : images/carousel/slide1.webp
-  slide2_image : images/carousel/slide2.JPG
-  slide2_image_webp : images/carousel/slide2.webp
+  slide1_image : images/carousel/slide5.jpeg
+  slide1_image_webp : images/carousel/slide5.webp
+  slide2_image : images/carousel/slide4.JPG
+  slide2_image_webp : images/carousel/slide4.webp
   slide3_image : images/carousel/slide3.jpg
   slide3_image_webp : images/carousel/slide3.webp
-  slide4_image : images/carousel/slide4.jpg
-  slide4_image_webp : images/carousel/slide4.webp
-  slide5_image : images/carousel/slide5.jpeg
-  slide5_image_webp : images/carousel/slide5.webp
+  slide4_image : images/carousel/slide2.jpg
+  slide4_image_webp : images/carousel/slide2.webp
+  slide5_image : images/carousel/slide1.jpeg
+  slide5_image_webp : images/carousel/slide1.webp
   title : About Us
   # about_item :
   content1 : We’ve always loved matcha, but the __whisking, clumping, and $8 café runs__? Not so much.
