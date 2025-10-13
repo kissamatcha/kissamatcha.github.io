@@ -26,6 +26,78 @@
           <p>{{ .content2 | markdownify }}</p>
         </div>
       </div>
+      <!-- <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1"
+              tabindex="0"
+              class="carousel__slide"
+              {{ partial `bg-image.html` (dict `Src` .bg_image_webp) | safeHTMLAttr }}>
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4"
+                 class="carousel__prev">Go to last slide</a>
+              <a href="#carousel__slide2"
+                 class="carousel__next">Go to next slide</a>
+            </div>
+          </li>
+          <li id="carousel__slide2"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3"
+               class="carousel__next">Go to next slide</a>
+          </li>
+          <li id="carousel__slide3"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide4"
+               class="carousel__next">Go to next slide</a>
+          </li>
+          <li id="carousel__slide4"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide1"
+               class="carousel__next">Go to first slide</a>
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1"
+                 class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2"
+                 class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3"
+                 class="carousel__navigation-button">Go to slide 3</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4"
+                 class="carousel__navigation-button">Go to slide 4</a>
+            </li>
+          </ol>
+        </aside>
+      </section> -->
+      <section class="carousel" aria-label="Gallery">
+        <div class="carousel__viewport">
+          <div class="carousel__slide slide1" {{ partial `bg-image.html` (dict `Src` .slide1_image_webp) | safeHTMLAttr }}></div>
+          <div class="carousel__slide slide2" {{ partial `bg-image.html` (dict `Src` .slide2_image_webp) | safeHTMLAttr }}></div>
+          <div class="carousel__slide slide3" {{ partial `bg-image.html` (dict `Src` .slide3_image_webp) | safeHTMLAttr }}></div>
+        </div>
+        <div class="swipe-hint">
+          Swipe to see more→
+        </div>
+      </section>
       {{"<!-- /section title -->" | safeHTML}} {{ range .about_item }} {{"<!-- About item -->"
       | safeHTML}}
       <div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">

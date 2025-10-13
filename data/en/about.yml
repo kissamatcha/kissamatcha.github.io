@@ -1,12 +1,18 @@
 ############################# About ###################################
 about:
   enable : true
-  bg_image : images/backgrounds/about_bg.png
-  bg_image_webp : images/backgrounds/about_bg.webp
+  # bg_image : images/backgrounds/about_bg.png
+  # bg_image_webp : images/backgrounds/about_bg.webp
   left_image : images/left_image.png
   left_image_webp : images/left_image.webp
   right_image : images/right_image.png
   right_image_webp : images/right_image.webp
+  slide1_image : images/carousel/slide1.jpeg
+  slide1_image_webp : images/carousel/slide1.webp
+  slide2_image : images/carousel/slide2.JPG
+  slide2_image_webp : images/carousel/slide2.webp
+  slide3_image : images/carousel/slide3.jpg
+  slide3_image_webp : images/carousel/slide3.webp
   title : About Us
   # about_item :
   content1 : We’ve always loved matcha, but the __whisking, clumping, and $8 café runs__? Not so much.
