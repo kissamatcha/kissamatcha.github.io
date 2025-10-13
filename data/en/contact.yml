@@ -2,13 +2,13 @@
 contact:
   enable : true
   title : Contact Us
-  subtitle : Contact Details
-  content: "Questions? Comments? We'd love to hear from you! Reach out to us using the contact form below or through our social media channels."
+  subtitle : Let's Keep in Touch
+  content: "Leave us your email and we'll keep you updated on all things Kissa."
 
   # Contact details
-  contact_list:
-    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "New York, New York"
+  # contact_list:
+    # - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+    #   info : "New York, New York"
       
     # - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
     #   info : "Phone: +880-31-000-000"
@@ -16,8 +16,8 @@ contact:
     # - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
     #   info : "Fax: +880-31-000-000"
       
-    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: info@kissa.nyc"
+    # - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+    #   info : "Email: info@kissa.nyc"
 
 
   # Contact form

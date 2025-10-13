@@ -1,8 +1,8 @@
 ############################# About ###################################
 about:
   enable : true
-  # bg_image : images/backgrounds/about_bg.png
-  # bg_image_webp : images/backgrounds/about_bg.webp
+  bg_image : images/backgrounds/about_bg.png
+  bg_image_webp : images/backgrounds/about_bg.webp
   left_image : images/left_image.png
   left_image_webp : images/left_image.webp
   right_image : images/right_image.png

@@ -140,6 +140,18 @@ a:hover {
   background-color: #e14651;
 }
 
+@media (max-width: 768px) {
+  .border-meghna {
+    width: 0;
+    height: 0;
+  }
+  
+  .border-meghna:before {
+    width: 0;
+    height: 0;
+  }
+}
+
 .color {
   color: #6CB670;
 }
@@ -296,18 +308,33 @@ a:hover {
 }
 
 .title {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .title h2 {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: white;
 }
 
 .title h2 span {
-  color: #e14651;
+  color: #f03e6b;
+}
+
+@media (max-width: 768px) {
+  .title h2 {
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+  }
+  
+  .title h2 span {
+    color: white;
+  }
 }
 
 .title p {
@@ -595,6 +622,9 @@ navbar-dark .navbar-nav>.nav-link,
   padding: 10px 0;
   z-index: 1000;
   color: black;
+  font-family: Impact;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .marquee-content {
@@ -620,7 +650,7 @@ navbar-dark .navbar-nav>.nav-link,
   About us section
 ==================================================================*/
 .about {
-  padding-top: 50px;
+  padding-top: 40px;
   background-color: #f1acb7;
   color: black;
   position: relative;
@@ -694,7 +724,7 @@ navbar-dark .navbar-nav>.nav-link,
   font-size: 1.1rem;
   /* box-shadow: 4px 4px 0 #b9848d; */
   box-shadow: 4px 4px 0 rgba(191, 88, 90, 0.388);
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .about .container .text-box-container .text-box-2 p{
@@ -777,7 +807,7 @@ navbar-dark .navbar-nav>.nav-link,
     font-size: 1.1rem;
     /* box-shadow: 4px 4px 0 #b9848d; */
     box-shadow: 4px 4px 0 rgba(191, 88, 90, 0.388);
-    margin-bottom: 110px;
+    margin-bottom: 50px;
   }
   
   .about .container .text-box-container .text-box-2 p{
@@ -829,7 +859,7 @@ navbar-dark .navbar-nav>.nav-link,
 
 @media (max-width: 768px) {
   .left-block {
-    background-size: contain;
+    /* background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
     width: 25%; 
@@ -837,11 +867,12 @@ navbar-dark .navbar-nav>.nav-link,
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 200;
+    z-index: 200; */
+    width: 0;
   }
 
   .right-block {
-    background-size: contain;
+    /* background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
     width: 28%;
@@ -849,7 +880,45 @@ navbar-dark .navbar-nav>.nav-link,
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: 200;
+    z-index: 200; */
+    width: 0;
+  }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow-x: auto; /* enable horizontal scroll */
+    scroll-snap-type: x mandatory; /* snap to children */
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+    scrollbar-width: none; /* hide scrollbar on Firefox */
+    border: 2px solid red;   /* temporary border to see container */
+    height: 400px;
+    display: block;
+  }
+  
+  /* Hide scrollbar for WebKit browsers */
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Track that holds carousel items */
+  .carousel-track {
+    background-color: yellow;
+    display: flex;
+    gap: 10px; /* spacing between images */
+    height: 100%;
+  }
+  
+  /* Each carousel item */
+  .carousel-item {
+    flex: 0 0 100%;            /* full width of container */
+    height: 100%;               /* full height of container */
+    scroll-snap-align: start;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
   }
 }
 
@@ -922,6 +991,7 @@ navbar-dark .navbar-nav>.nav-link,
 ==================================================================*/
 .about-2 .content-block {
   padding: 40px;
+  padding-bottom: 50px;
 }
 
 .about-2 .content-block h2{
@@ -1018,24 +1088,28 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .contact-us {
-  padding-top: 50px;
+  padding-top: 40px;
   background-color: #f1acb7;
   color: black;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-us {
-    padding-top: 80px;
+    padding-top: 40px;
   }
-}
+} */
 
 .contact-form {
   margin-bottom: 60px;
 }
 
+.form-meghna {
+  margin-top: 0px;
+}
+
 .form-meghna .form-control {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 5;
   padding: 5px 10px;
   color: #000000;
   border: 1px solid rgba(236, 239, 241, 1);
@@ -1054,9 +1128,10 @@ navbar-dark .navbar-nav>.nav-link,
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: #e14651;
-  padding: 12px 0;
+  padding: 6px 0;
   width: 100%;
   margin: 0;
+  border-radius: 5px;
 }
 
 #contact-submit:hover {
