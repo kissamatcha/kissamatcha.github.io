@@ -1027,7 +1027,7 @@ navbar-dark .navbar-nav>.nav-link,
 
   .swipe-hint {
     position: absolute;
-    bottom: 45%;
+    bottom: 48%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1rem;
@@ -1036,14 +1036,14 @@ navbar-dark .navbar-nav>.nav-link,
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     opacity: 0;
-    animation: fadeInOut 4s ease-in-out forwards;
+    animation: fadeInOut 3s ease-in-out forwards;
   }
   
   @keyframes fadeInOut {
-    0% { opacity: 0; transform: translateX(-50%) translateY(10px); }
-    10% { opacity: 1; transform: translateX(-50%) translateY(0); }
+    0% { opacity: 0; }
+    10% { opacity: 1; }
     80% { opacity: 1; }
-    100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+    100% { opacity: 0; }
   }
 
   .carousel__viewport {
