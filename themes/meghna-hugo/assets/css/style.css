@@ -1438,10 +1438,12 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .form-meghna {
+  font-family: "Quattrocento Sans", sans-serif;
   margin-top: 0px;
 }
 
 .form-meghna .form-control {
+  font-family: "Quattrocento Sans", sans-serif;
   background-color: transparent;
   border-radius: 5;
   padding: 5px 10px;
