@@ -8,6 +8,21 @@
 
 {{ partial "about.html" . }}
 
+<div class="features-title">
+      <svg class="curved-text-svg" viewBox="0 0 300 120" width="400" height="120">
+        <!-- curve path -->
+        <path id="curve" d="M -20,70 A 400,400 0 0,1 320,70" fill="none" />
+      
+        <!-- text on path with more spacing -->
+        <text class="curved-text" dy="45">
+          <textPath href="#curve" startOffset="0%" textLength="389" lengthAdjust="spacing" >
+            WHY KISSA?
+          </textPath>
+        </text>
+      </svg>
+      
+</div>
+
 {{ partial "feature.html" . }}
 
 {{ partial "cta.html" . }}

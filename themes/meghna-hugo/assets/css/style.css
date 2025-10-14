@@ -153,7 +153,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670;
+  color: white;
 }
 
 .sub-title {
@@ -313,14 +313,14 @@ a:hover {
 
 .title h2 {
   text-transform: capitalize;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 38px;
   color: white;
 }
 
-.title h2 span {
+/* .title h2 span {
   color: #e14651;
-}
+} */
 
 @media (max-width: 768px) {
   .title h2 {
@@ -650,11 +650,33 @@ navbar-dark .navbar-nav>.nav-link,
   About us section
 ==================================================================*/
 .about {
-  padding-top: 40px;
+  padding-top: 0px;
   background-color: #f1acb7;
   color: black;
   position: relative;
   padding-bottom: 0;
+}
+
+.about-title {
+  position: relative;
+  padding-bottom: 0px;
+  /* margin-bottom: 20px; */
+  margin-bottom: 0px;
+  width: 100%;
+  font-family: Impact;
+  text-align: center;
+  /* background-color: #b7d587; */
+  /* padding: 10px 0; */
+  color: white;
+  font-family: Impact;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 48px;
+}
+
+.curved-text {
+  /* background-color: blue; */
+  margin-top: 10px;
 }
 
 /* .about .container {
@@ -837,20 +859,23 @@ navbar-dark .navbar-nav>.nav-link,
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
-  width: 33%; 
+  /* width: 33%;  */
+  width:40%;
   aspect-ratio: 1.1/1; 
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -7%;
   z-index: 200;
 }
 
 .right-block {
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left bottom;
-  width: 33%;
-  aspect-ratio: 1.1/1; 
+  background-position: right bottom;
+  /* background-color: red; */
+  width: 36%;
+  /* width: 41%; */
+  aspect-ratio: 1/1.15; 
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1259,9 +1284,48 @@ navbar-dark .navbar-nav>.nav-link,
 /*=================================================================
   About us 2 section
 ==================================================================*/
+
+.about-2 {
+  padding-top: 0px;
+}
+
+.features-title {
+  width: 50%;
+  height: 120px;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+@media (max-width: 768px) {
+  .features-title {
+    width: 100%;
+  }
+}
+
+/* .features-title .curved-text-svg {
+  background-color: blue;
+} */
+
+.features-title .curved-text {
+  font-family: Impact, sans-serif;
+  font-size: 66px;
+  fill: white;
+  /* background-color: red; */
+}
+
 .about-2 .content-block {
-  padding: 40px;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 50px;
+}
+
+.about-2 .content-block .row{
+  margin-top: 120px;
 }
 
 .about-2 .content-block h2{
