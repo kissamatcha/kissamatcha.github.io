@@ -1290,6 +1290,7 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .features-title {
+  margin-top: 10px;
   width: 50%;
   height: 120px;
   right: 0;
@@ -1377,6 +1378,21 @@ navbar-dark .navbar-nav>.nav-link,
   color: black;
   margin: 0;
 }
+
+/* @media (max-width: 768px) {
+  .about-2 .content-block .feature-text-box::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-65%, -30%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 0;
+  }
+} */
 
 /*=================================================================
  Call To Action 1
