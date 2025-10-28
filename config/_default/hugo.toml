@@ -126,7 +126,7 @@ map_marker = "images/marker.png"
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
-link = "info@kissa.nyc"
+link = "mailto:info@kissa.nyc"
 
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
@@ -134,7 +134,7 @@ link = "https://www.instagram.com/kissamatcha"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/kiss-matcha/"
+link = "https://www.linkedin.com/company/kissanyc/"
 
 
 ################################ English Language ########################
