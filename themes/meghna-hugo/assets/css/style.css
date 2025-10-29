@@ -7,6 +7,23 @@ Version: 1.3
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
 /*=== MEDIA QUERY ===*/
+
+@font-face {
+  font-family: 'Nighty';
+  src: url('/fonts/Nighty.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/fonts/Haffer-Regular.otf') format('opentype'),
+       url('fonts/Haffer-Regular.woff2') format('woff2'),
+       url('fonts/Haffer-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: #e14651;
   color: #737f8a;
@@ -26,12 +43,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Haffer", sans-serif;
   color: #ffffff;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Haffer", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -103,7 +120,7 @@ a:hover {
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Haffer", sans-serif;
 }
 
 .btn:focus {
@@ -377,7 +394,7 @@ a:hover {
 .header-bradcrumb .active {
   color: #000000;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Haffer", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -524,16 +541,17 @@ navbar-dark .navbar-nav>.nav-link,
 
 .hero-area .block h1 {
   /* font-family: "Gill Sans"; */
-  font-family: "Impact";
+  font-family: "Nighty", sans-serif;
   color: #fff;
   text-transform: capitalize;
   /* font-weight: 600; */
   font-weight: 100;
-  margin-bottom: 20px;
-  font-size: 24vw;
+  margin-bottom: 0px;
+  font-size: 27vw;
   white-space: nowrap;   /* prevent wrapping */
   margin: 0;
   line-height: 1;
+  padding-bottom: 0;
 }
 
 @media (max-width: 480px) {
@@ -550,7 +568,7 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .hero-area .block .btn-transparent {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   border-color: #fff;
   padding: 14px 50px;
   font-size: 18px;
@@ -624,7 +642,7 @@ navbar-dark .navbar-nav>.nav-link,
   padding: 10px 0;
   z-index: 1000;
   color: black;
-  font-family: Impact;
+  font-family: Haffer;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -665,12 +683,11 @@ navbar-dark .navbar-nav>.nav-link,
   /* margin-bottom: 20px; */
   margin-bottom: 0px;
   width: 100%;
-  font-family: Impact;
+  font-family: Nighty;
   text-align: center;
   /* background-color: #b7d587; */
   /* padding: 10px 0; */
   color: white;
-  font-family: Impact;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 48px;
@@ -1314,7 +1331,7 @@ navbar-dark .navbar-nav>.nav-link,
 } */
 
 .features-title .curved-text {
-  font-family: Impact, sans-serif;
+  font-family: Nighty, sans-serif;
   font-size: 66px;
   fill: white;
   /* background-color: red; */
@@ -1456,12 +1473,12 @@ navbar-dark .navbar-nav>.nav-link,
 }
 
 .form-meghna {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Haffer", sans-serif;
   margin-top: 0px;
 }
 
 .form-meghna .form-control {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Haffer", sans-serif;
   background-color: transparent;
   border-radius: 5;
   padding: 5px 10px;
