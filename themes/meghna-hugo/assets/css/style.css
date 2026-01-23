@@ -879,11 +879,11 @@ navbar-dark .navbar-nav>.nav-link,
   background-repeat: no-repeat;
   background-position: left bottom;
   /* width: 33%;  */
-  width:40%;
-  aspect-ratio: 1.1/1; 
+  width:30%;
+  aspect-ratio: 1/1.15; 
   position: absolute;
   bottom: 0;
-  left: -7%;
+  left: 0%;
   z-index: 200;
 }
 
